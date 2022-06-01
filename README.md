@@ -1,4 +1,4 @@
-# How to setup VueJS in your laravel
+# How to setup VueJS in Laravel
 
 #### Command Prompt
 
