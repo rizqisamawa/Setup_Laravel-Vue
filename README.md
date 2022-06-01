@@ -20,7 +20,7 @@ composer require laravel/ui ( optional )
 ```bash
 php artisan ui bootstrap ( optional )
 ```
-#### Changes your file in webpack.mix.js
+#### Change your file in webpack.mix.js
 ```javascript
 mix.js("resources/js/app.js", "public/js")
     .vue()
