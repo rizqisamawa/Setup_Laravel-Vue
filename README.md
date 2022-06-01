@@ -39,7 +39,7 @@ npm install && npm run dev
 ```javascript
 <template>
     <div>
-        <h1>This is home view</h1>
+        <h1>This is Home View</h1>
     </div>
 </template>
 ```
@@ -49,9 +49,9 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
     {
-        path: "/about",
-        name: "about",
-        component: () => import("../pages/AboutView.vue"),
+        path: "/home",
+        name: "home",
+        component: () => import("../pages/HomeView.vue"),
     },
 ];
 
